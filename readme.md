@@ -7,19 +7,40 @@ Markdown dibuat pertama kali oleh John Gruber sejak 2004 dengan bahasa Perl. Tuj
 
 #_**Header**_
 # Header 1 (H1)
-``` # Kalimat ```
 ## Header 2 (H2)
-``` ## Kalimat ```
 ### Header 3 (H3)
-``` ### Kalimat ```
 #### Header 4 (H4)
-``` #### Kalimat ```
 ##### Header 5 (H5)
-``` ##### Kalimat ```
 ###### Header 6 (H6)
-``` ###### Kalimat ```
+
+```
+  # Header 1
+  ## Header 2
+  ### Header 3
+  #### Header 4
+  ##### Header 5
+  ###### Header 6
+```
+
 
 #_**Style**_
+
+Italic menggunakan asterisks atau underscores ( *  _ )
+
+*Kalimat menggunakan style italic*
+```
+  *Kalimat style italic*
+```
+atau
+```
+  _Kalimat style italic_
+```
+-------------------------------
+Bold menggunakan double asterisks atau underscores.  (** ** __ __)
+
+Kombinasi emphasis biasanya di gunakan untuk membuat text bold dan italic secara bersama sama.
+
+Strikethrough menggunakan 2 buah tildes (~~ ~~)
 *contoh text italic*
 _contoh text italic_
 
