@@ -6,6 +6,7 @@ Markdown merupakan gaya penulisan text-to-HTML yang digunakan untuk membuat kont
 Markdown dibuat pertama kali oleh John Gruber sejak 2004 dengan bahasa Perl. Tujuan utama dari pembuatan Markdown adalah untuk mempermudah penulisan format plain text dan sebagai opsi untuk bisa mengkonversinya ke HTML dan XHTML.
 
 #_**Header**_
+=====================================================
 # Header 1 (H1)
 ## Header 2 (H2)
 ### Header 3 (H3)
@@ -21,13 +22,14 @@ Markdown dibuat pertama kali oleh John Gruber sejak 2004 dengan bahasa Perl. Tuj
   ##### Header 5
   ###### Header 6
 ```
+-----------------------------------------------------
 
+#***Style***
+=======================================================
+###--- Italic ---
+Italic menggunakan asterisks atau underscores ( * atau _ ).
 
-#_**Style**_
-
-Italic menggunakan asterisks atau underscores ( *  _ )
-
-*Kalimat menggunakan style italic*
+*Kalimat menggunakan style italic.*
 ```
   *Kalimat style italic*
 ```
@@ -35,21 +37,29 @@ atau
 ```
   _Kalimat style italic_
 ```
--------------------------------
-Bold menggunakan double asterisks atau underscores.  (** ** __ __)
+###--- Bold ---
+Bold menggunakan double asterisks atau underscores.  (** atau __).
 
-Kombinasi emphasis biasanya di gunakan untuk membuat text bold dan italic secara bersama sama.
+**Kalimat ini menggunakan style bold.**
+```
+  **Kalimat ini menggunakan style bold**
+```
+atau
+```
+  __Kalimat ini menggunakan style bold__
+```
+### --- Strike ---
+Strikethrough menggunakan 2 buah tildes (~~ ~~).
 
-Strikethrough menggunakan 2 buah tildes (~~ ~~)
-*contoh text italic*
-_contoh text italic_
+~~Kalimat ini menggunakan style Strike~~
+```
+  ~~Kalimat ini menggunakan style Strike~~
+```
 
-**contoh text bold**
-__contoh text bold__
+#***Image***
+==========================================================
 
-*contoh **gabungan blod** dengan italic*
-
-~~contoh text dengan strikethrough~~
+![Logo parkir](/assets/parkiryuk.png)
 
 * Item 1
 * Item 2
